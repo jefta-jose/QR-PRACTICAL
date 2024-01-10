@@ -12,13 +12,12 @@ body {
 }
 
 .QR-CONTAINER {
-    margin: 50px auto;
+    margin: 90px auto; /* Adjust margin for smaller screens */
     background-color: white;
     border-radius: 20px;
     text-align: center;
-    width: 315px;
-    padding: 20px 20px 40px 20px;
-    max-width: 400px;
+    padding: 20px;
+    max-width: 300px;
     border: 1px solid #ccc;
 }
 
@@ -32,9 +31,35 @@ body {
 
 h2 {
     color: #333;
-    padding-bottom: 20px;
+    font-weight: 700;
+    padding-bottom: 10px; /* Adjust padding for smaller screens */
 }
 
 p {
+    font-size: 15px;
+    font-weight: 400;
     color: #666;
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 375px) {
+    .QR-CONTAINER {
+        margin: 10px auto;
+        padding: 10px;
+        height: auto; /* Set height to auto or a percentage value */
+    }
+
+    .QR-CONTAINER img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
