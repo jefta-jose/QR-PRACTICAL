@@ -12,7 +12,7 @@ body {
 }
 
 .QR-CONTAINER {
-    margin: 90px auto; /* Adjust margin for smaller screens */
+    margin: 90px auto; 
     background-color: white;
     border-radius: 20px;
     text-align: center;
@@ -32,7 +32,7 @@ body {
 h2 {
     color: #333;
     font-weight: 700;
-    margin-bottom: 10px; /* Adjust padding for smaller screens */
+    margin-bottom: 10px; 
 }
 
 p {
