@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(213, 225, 239);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.QR-CONTAINER {
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 315px;
+    padding: 20px 20px 40px 20px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.QR-CONTAINER img {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+}
+
+h2 {
+    color: #333;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #666;
+}
